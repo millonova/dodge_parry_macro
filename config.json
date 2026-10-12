@@ -1,0 +1,148 @@
+{
+  "sniper_box": {
+    "x": 1039,
+    "y": 978,
+    "width": 465,
+    "height": 330
+  },
+  "menu_always_on_top": false,
+  "pre_press_delay_ms": 46,
+  "delay_jitter_ms": 10,
+  "audio_cues_enabled": true,
+  "roi_locked": true,
+  "priority_order": [
+    "A",
+    "F",
+    "D",
+    "S",
+    "W"
+  ],
+  "keybinds": {
+    "toggle_arm": "b",
+    "toggle_overlay": "f7",
+    "toggle_lock": "f9",
+    "panic": "f12",
+    "quit": "f8",
+    "actions": {
+      "up": "w",
+      "left": "a",
+      "down": "s",
+      "right": "d",
+      "center": "f"
+    }
+  },
+  "action_names": {
+    "up": "Up (W)",
+    "left": "Left (A)",
+    "down": "Down (S)",
+    "right": "Right (D)",
+    "center": "Center Parry (F)"
+  },
+  "color_thresholds": {
+    "green_lower": [
+      35,
+      70,
+      120
+    ],
+    "green_upper": [
+      85,
+      255,
+      255
+    ],
+    "min_green_pixels": 80,
+    "green_min_density": 0.08,
+    "red_lower_1": [
+      0,
+      100,
+      100
+    ],
+    "red_upper_1": [
+      10,
+      255,
+      255
+    ],
+    "red_lower_2": [
+      170,
+      100,
+      100
+    ],
+    "red_upper_2": [
+      180,
+      255,
+      255
+    ],
+    "red_min_density": 0.08,
+    "strict_transition": false
+  },
+  "timing": {
+    "cooldown_ms": 305,
+    "pre_press_delay_ms": 46,
+    "delay_jitter_ms": 10,
+    "key_press_duration_ms": 40,
+    "scan_interval_ms": 1
+  },
+  "sub_rois": {
+    "up": {
+      "rx": 203,
+      "ry": 59,
+      "rw": 82,
+      "rh": 30
+    },
+    "left": {
+      "rx": 157,
+      "ry": 96,
+      "rw": 38,
+      "rh": 84
+    },
+    "center": {
+      "rx": 222,
+      "ry": 116,
+      "rw": 45,
+      "rh": 45
+    },
+    "right": {
+      "rx": 297,
+      "ry": 104,
+      "rw": 31,
+      "rh": 81
+    },
+    "down": {
+      "rx": 200,
+      "ry": 196,
+      "rw": 89,
+      "rh": 30
+    }
+  },
+  "rois": {
+    "up": {
+      "x": 1242,
+      "y": 1037,
+      "w": 82,
+      "h": 30
+    },
+    "left": {
+      "x": 1196,
+      "y": 1074,
+      "w": 38,
+      "h": 84
+    },
+    "center": {
+      "x": 1261,
+      "y": 1094,
+      "w": 45,
+      "h": 45
+    },
+    "right": {
+      "x": 1336,
+      "y": 1082,
+      "w": 31,
+      "h": 81
+    },
+    "down": {
+      "x": 1239,
+      "y": 1174,
+      "w": 89,
+      "h": 30
+    }
+  }
+}
